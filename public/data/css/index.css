@@ -57,3 +57,17 @@ p{
     background-color: rgb(0, 255, 0);
     border-color: transparent;
 }
+
+.file.is-info .file-cta {
+    border: none;
+    background-color: rgb(33, 236, 33);
+    color: black ;
+}
+
+
+.file.is-info.is-hovered .file-cta,
+.file.is-info:hover .file-cta{
+    color: black;
+    background-color: rgb(0, 255, 0);
+    border-color: transparent;
+}
