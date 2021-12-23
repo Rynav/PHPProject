@@ -41,17 +41,6 @@ if (!isset($_SESSION['UID'])) {
             ?>
         </div>
     </div>
-
-    <?php 
-        include_once '../public/data/php/dbh.inc.php';
-        include_once '../public/data/php/functions.inc.php';
-        if($pass == ""){
-            echo "<div class='notification is-danger' style='max-width: 20vw;min-width:20vw; position: absolute;top: 100%;left: 100%;transform: translate(-100%, -100%);'>
-            <button class='delete'></button>
-            Hey! Important update: we have changed our password protection and you need to change it as fast as possible. Do it in the <a href='?tab=password'>Password</a> tab!
-            </div>";
-        } 
-    ?>
     <script> 
         function togglepasswordvisibility1(){
             var passwordfield = document.getElementById('password1')
