@@ -45,7 +45,6 @@ if (!isset($_SESSION['UID'])) {
     <?php 
         include_once '../public/data/php/dbh.inc.php';
         include_once '../public/data/php/functions.inc.php';
-        $pass = checkpass($conn, $_SESSION['UID']);
         if($pass == ""){
             echo "<div class='notification is-danger' style='max-width: 20vw;min-width:20vw; position: absolute;top: 100%;left: 100%;transform: translate(-100%, -100%);'>
             <button class='delete'></button>
