@@ -36,8 +36,6 @@ if (!isset($_SESSION['UID'])) {
                 }else{
                     include '../public/data/php/includes/infopage.php';
                 }
-
-                
             ?>
         </div>
     </div>
