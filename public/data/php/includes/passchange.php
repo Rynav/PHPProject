@@ -43,8 +43,6 @@
         </div>
         <button name="submit" class="button is-green" style="margin-top: 10px;">Submit</button>
     </form>
-
-
     <?php
     if (isset($_GET["error"])) {
         if ($_GET["error"] == "emptyFields"){

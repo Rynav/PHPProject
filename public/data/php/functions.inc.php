@@ -260,14 +260,3 @@ function getUsername($conn, $uid){
     }
 
 }
-
-function checkpass($conn, $uid){
-    $sql = "SELECT salt FROM users WHERE ID = '$uid'";
-
-    $result = $conn->query($sql);
-
-        while($row = $result->fetch_array()){
-            return $row['salt'];
-        }
-}
-?>

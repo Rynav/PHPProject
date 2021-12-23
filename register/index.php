@@ -41,8 +41,12 @@
                     </div>
             </div>
             <div>
+                <p>Invite Code</p>
+                <input id="invcode" name="invcode" placeholder="Invite code" class='input is-dark' style="max-width: 42vw;"></input>
+            </div>
+            <div>
                 <p>Email</p>
-                <input id="email" name="Email" placeholder="Email. i.e name@example.com" class='input is-dark' style="max-width: 42vw;"></input>
+                <input id="email" name="Email" placeholder="Email" class='input is-dark' style="max-width: 42vw;"></input>
             </div>
             <button name="submit" class="button is-green" style="margin-top: 5px;">Register</button>
         </form>
