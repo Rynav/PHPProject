@@ -12,5 +12,5 @@
      - /profiles/
      - Shows every registered account, their profile picture, UID and balance.
    - admin panel:
-    - /adminpanel/
-    - Only available to admins, modify every account registered on the site and the site itself.
+     - /adminpanel/
+     - Only available to admins, modify every account registered on the site and the site itself.
