@@ -5,8 +5,8 @@
    - Login:
      - /login/
      - Logins to an account that already exists.
-   - Dashbord:
-     - /dashbord/
+   - Dashboard:
+     - /dashboard/
      - Change password, Edit profile picture of the account you are logged into.
    - Profiles:
      - /profiles/
