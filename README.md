@@ -16,7 +16,7 @@
      - Only available to admins, modify every account registered on the site and the site itself.
 
 # 2. MySQL database example
-| UID | username | password | email | name | lastname | balance |
+| ID | username | password | email | name | lastname | balance |
 |-----|----------|----------|-------|------|----------|---------|
 |Int, Auto Increment  | VARCHAR, 255 | VARCHAR, 255| VARCHAR, 255 | VARCHAR, 255 | VARCHAR, 255 | INT, 255|
 
