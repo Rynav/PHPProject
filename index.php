@@ -20,7 +20,7 @@
             if (isset($_SESSION["UID"])) {
                 include('public/data/php/includes/navbar-loggedin.php');
                 if($_SESSION["UID"] == "1"){
-                    echo "<a href='/adminpanel'> <button name='admn' class='button is-green' style='margin-right: 10px'>Admin Button</button> </a>"; 
+                    echo "<a href='/adminpanel'> <button name='admn' class='button is-green' style='margin-right: 10px'>Admin Panel</button> </a>"; 
                 }
             } else {
                 echo "<a href='/login'> <button name='lgbtn' class='button is-green' style='margin-right: 10px'>Login</button> </a>";
