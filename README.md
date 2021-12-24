@@ -15,6 +15,6 @@
      - /adminpanel/
      - Only available to admins, modify every account registered on the site and the site itself.
 # 2. MySQL database example:
-     UID  | username | password | email | name | lastname | Balance 
-     ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-     Int, Auto Increment  | VARCHAR, 255 | VARCHAR, 255| VARCHAR, 255 | VARCHAR, 255 | VARCHAR, 255 | INT, 255 
+    | UID  | username | password | email | name | lastname | Balance |
+    | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+    | Int, Auto Increment  | VARCHAR, 255 | VARCHAR, 255| VARCHAR, 255 | VARCHAR, 255 | VARCHAR, 255 | INT, 255 |
