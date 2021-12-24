@@ -18,3 +18,8 @@
     | UID  | username | password | email | name | lastname | Balance |
     | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
     | Int, Auto Increment  | VARCHAR, 255 | VARCHAR, 255| VARCHAR, 255 | VARCHAR, 255 | VARCHAR, 255 | INT, 255 |
+
+# e. asd
+| UID | username | password | email | name | lastname | balance |
+|-----|----------|----------|-------|------|----------|---------|
+|Int, Auto Increment  | VARCHAR, 255 | VARCHAR, 255| VARCHAR, 255 | VARCHAR, 255 | VARCHAR, 255 | INT, 255|
